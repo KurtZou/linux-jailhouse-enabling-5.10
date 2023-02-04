@@ -219,9 +219,9 @@
 	status = "okay";
 };
 
-&uart3 {
+&uart4 {
 	pinctrl-names = "default";
-	pinctrl-0 = <&uart3_pg_pins>;
+	pinctrl-0 = <&uart4_pg_pins>;
 	status = "okay";
 };
 
