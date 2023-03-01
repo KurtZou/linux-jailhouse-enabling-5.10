@@ -225,7 +225,7 @@
 	pinctrl-0 = <&uart4_pg_pins>;
 	status = "okay";
 };
-*/a
+*/
 &usbphy {
 	usb1_vbus-supply = <&reg_vcc5v0>;
 	usb2_vbus-supply = <&reg_vcc5v0>;
