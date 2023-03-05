@@ -50,11 +50,11 @@
 
 / {
 	model = "dragonresource-t3";
-	compatible = "qihua,t3-cqa3t-bv3", "allwinner,sun8i-t3",
+	compatible = "allwinner,sun8i-t3",
 		     "allwinner,sun8i-r40";
 
 	aliases {
-		serial0 = &uart0;
+		serial0 = &uart4;
 	};
 
 	chosen {
