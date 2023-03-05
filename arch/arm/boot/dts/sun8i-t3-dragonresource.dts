@@ -54,11 +54,12 @@
 		     "allwinner,sun8i-r40";
 
 	aliases {
-		serial0 = &uart4;
+		serial0 = &uart0;
+		serial4 = &uart4;
 	};
 
 	chosen {
-		stdout-path = "serial0:115200n8";
+		stdout-path = "serial4:115200n8";
 	};
 
 	connector {
